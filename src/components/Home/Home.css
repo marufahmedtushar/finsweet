@@ -1,0 +1,85 @@
+.section1 .input{
+display: flex;
+justify-content: center;
+}
+.section1 .input a{
+	background-color: #503AE7;
+	color: #ffffff;
+	text-decoration: none;
+
+}
+
+.input input{
+	background-color: #F4F2FF;
+	outline: none;
+	border-style: none;
+	width: 75%;
+}
+
+.stripes-container {
+  display: flex;
+}
+
+.stripe {
+  display: inline-block;
+  height: 100px;
+}
+
+.stripe0{
+  width: 50px;
+  background-color: #ffffff;
+}
+
+.stripe1 {
+  width: 50px;
+  height: 300px;
+  background: linear-gradient(to bottom, 
+    #ffffff 30%, 
+    #503AE7 30% 70%, 
+    #ffffff 70%);
+}
+
+
+.stripe2 {
+  width: 50px;
+  height: 300px;
+  background-color: #1AD993;
+}
+
+.stripe3 {
+  width: 50px;
+  height: 300px;
+  background: linear-gradient(to bottom, 
+    #ffffff 15%, 
+    #503AE7 15% 85%, 
+    #ffffff 85%);
+}
+
+.stripe4 {
+  width: 50px;
+  height: 300px;
+  background: linear-gradient(to bottom, 
+    #ffffff 30%, 
+    #1AD993 30% 70%, 
+    #ffffff 70%);
+}
+
+.stripe5 {
+  width: 50px;
+  height: 300px;
+  background-color: #503AE7;
+}
+
+.stripe6 {
+  width: 50px;
+  height: 300px;
+  background: linear-gradient(to bottom, 
+    #ffffff 15%, 
+    #1AD993 15% 85%, 
+    #ffffff 85%);
+}
+
+
+
+
+

@@ -1,0 +1,27 @@
+.sponsor{
+	background-color: #503AE7;
+	bottom: -70px;
+	position: relative;
+}
+
+.footer{
+	background-color: #14142B;
+}
+
+.footer-brand{
+	font-size: 40px;
+}
+
+.last-footer{
+	background-color: #503AE7;
+}
+
+.page-list li ,.reach-us li,.subscribe li{
+	list-style: none;
+	padding: 5px 0px 5px 0px;
+}
+
+.subscribe li a img {
+	width:25px;
+	height: 25px;
+}
