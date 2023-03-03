@@ -15,7 +15,7 @@ const About = () => {
 						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
 						eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
 						<div className="subscribe-btn-container">
-							<a className="subscribe-btn px-4 d-flex justify-content-center align-items-center nav-link py-2 px-3">Subscribe Now!</a>
+							<a className="subscribe-btn  d-flex justify-content-center align-items-center nav-link py-2 px-3">Subscribe Now!</a>
 						</div>
 					</div>
 				</div>

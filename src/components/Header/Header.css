@@ -1,0 +1,18 @@
+.brand-name{
+	position: relative;
+}
+.brand-name:before{
+	content: "{Finsweet";
+	color: #503AE7;
+	position: absolute;
+
+	width: 0;
+	overflow: hidden;
+	transition:  all 2s linear;
+
+}
+
+.brand-name:hover:before{
+	width: 100%;
+	text-shadow: 1px 1px 1px;
+}

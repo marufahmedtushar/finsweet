@@ -79,7 +79,100 @@ justify-content: center;
     #ffffff 85%);
 }
 
+.podcasts{
+  list-style: none;
+}
+.podcasts-list li a img {
+  width:25px;
+  height: 25px;
+}
 
 
+.episode-btn-element .episode-btn{
+  background-color: #503AE7;
+}
+.episode-btn-element .episode-btn:hover{
+  border: 3px solid #832BC1;
+}
+.episode-element{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
+.episode-element .card{
+  margin: 5px;
+  padding: 5px;
+}
 
+.episode-element .card .listen-btn{
+color: #503AE7;
+}
+
+.episode-element .card .listen-btn i{
+  font-size: 22px;
+}
+.episode-element .card .listen-btn:focus{
+  border: none;
+}
+
+.article-element{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.article-element .card{
+  margin: 5px;
+  padding: 5px;
+}
+.article-card-body{
+  background-color: #F4F2FF;
+  overflow: hidden;
+}
+
+.link-btn{
+  color: #503AE7;
+}
+
+.article-card-element {
+  display: flex;
+  margin-top: 186px;
+  height: 122px;
+  transform: rotate(45deg);
+}
+
+.angle-div {
+  display: inline-block;
+}
+
+.angle-div0{
+  width: 70px;
+  height: 250px;
+  background-color: #F4F2FF;
+}
+
+.angle-div1 {
+  width: 70px;
+  height: 205px;
+  background: linear-gradient(to top, 
+    #503AE7 30%, 
+    #503AE7 30% 70%, 
+    #503AE7 70%);
+}
+.angle-div2 {
+  width: 70px;
+  height: 580px;
+  background: linear-gradient(to top, 
+    #1AD993 30%, 
+    #1AD993 30% 70%, 
+    #1AD993 70%);
+  margin-top: -258px;
+}
+.angle-div3 {
+  width: 70px;
+  height: 270px;
+  background: linear-gradient(to top, 
+    #503AE7 30%, 
+    #503AE7 30% 70%, 
+    #503AE7 70%);
+  margin-top: -158px;
+}

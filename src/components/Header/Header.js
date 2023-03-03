@@ -7,7 +7,7 @@ return (
 	<nav className="navbar bg-body-tertiary">
 		<div className="container-fluid">
 			<div className="container d-flex justify-content-between align-items-center">
-				<a class="navbar-brand fw-bold" href="/">{brand}</a>
+				<a class="navbar-brand brand-name fw-bold" href="/">{brand}</a>
 			<div className="d-flex justify-content-center" role="search">
 				<a className="nav-link" href="/about">About</a>
 			</div>
