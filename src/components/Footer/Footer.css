@@ -4,6 +4,7 @@
 	position: relative;
 }
 
+
 .footer{
 	background-color: #14142B;
 }
@@ -24,4 +25,24 @@
 .subscribe li a img {
 	width:25px;
 	height: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.sponsor .sponsor-container{
+		flex-direction: column;
+	}
+	.sponsor .sponsor-container svg{
+		border: 2px solid #ffffff;
+		margin: 5px;
+		border-radius: 5px;
+	}
+	.footer-element .row .col-sm-12{
+		display: flex;
+		justify-content: center;
+
+	}
+	.footer-element .row .col-sm-12 .subscribe-p{
+		margin-left: 100px;
+	}
 }

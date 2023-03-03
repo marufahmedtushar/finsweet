@@ -1,15 +1,13 @@
 import React from 'react'
 import './Home.css';
 const Home = () => {
-	
 
-	return (
-
+return (
 <div>
 	<section className="section1">
 		<div className="container p-5">
 			<div className="row px-5">
-				<div className="col-md-4">
+				<div className="col-lg-4 col-md-4 col-sm-12">
 					<div className="">
 						<h1 className="fw-bold">Become The Hero <br/>Of Your Own Story</h1>
 						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -20,7 +18,7 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
-				<div className="col-md-8">
+				<div className="col-lg-8 col-md-8 col-sm-12">
 					<div className="container d-flex justify-content-center align-items-center">
 						<div class="stripes-container">
 							<div class="stripe stripe1"></div>
@@ -38,14 +36,30 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-			<div className="podcast-container py-5">
-				<div className="podcasts pt-5">
-					<div className="podcasts-list d-flex justify-content-between align-items-center mt-4">
+			<div className="podcast-container py-5" >
+				<div className="podcasts pt-5" >
+					<div className="podcasts-list d-flex justify-content-between align-items-center mt-4" id="podcast0">
 						<li><a href="" className="nav-link text-dark fw-bold"> Podcast Available On</a></li>
 						<li><a href="" className="nav-link text-dark"><img src="images/ap.png" alt=""/> Apple Podcasts</a></li>
 						<li><a href="" className="nav-link text-dark"><img src="images/gp.png" alt=""/> Google Podcasts</a></li>
 						<li><a href="" className="nav-link text-dark"><img src="images/sc.png" alt=""/> SOUNDCLOUD</a></li>
 						<li><a href="" className="nav-link text-dark"><img src="images/sp.png" alt=""/> Spotify</a></li>
+					</div>
+					<div className="podcasts-list  mt-4" id="podcast1">
+						<div className="d-flex justify-content-center align-items-center">
+							<li><a href="" className=" nav-link text-dark fw-bold"> Podcast Available On</a></li>
+						</div>
+						<div className="podcast-li d-flex justify-content-between align-items-center">
+							<li className="p-1"><a href="" className="nav-link text-dark"><img src="images/ap.png" alt=""/> Apple Podcasts</a></li>
+							<li className="p-1"><a href="" className="nav-link text-dark"><img src="images/gp.png" alt=""/> Google Podcasts</a></li>
+						</div>
+						<div className="podcast-li d-flex justify-content-between align-items-center">
+							<li className="p-1"><a href="" className="nav-link text-dark"><img src="images/sc.png" alt=""/> SOUNDCLOUD</a></li>
+							<li className="p-1"><a href="" className="nav-link text-dark"><img src="images/sp.png" alt=""/> Spotify</a></li>
+						</div>
+						
+						
+						
 					</div>
 				</div>
 			</div>
@@ -73,6 +87,11 @@ const Home = () => {
 							<p class="card-text">Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.</p>
 							<a href="#" class="px-0 btn listen-btn fw-bold"><i class="fa-solid fa-circle-play fa-1x"></i><span className="text-center"> Listen Now</span></a>
 						</div>
+						<div className="microphone d-flex justify-content-between">
+							<div></div>
+							<i class="fa-solid fa-microphone"></i>
+						</div>
+						
 					</div>
 					<div class="card border-0">
 						<img src="images/img2.png" class="card-img-top rounded-0" alt="..."/>
@@ -80,6 +99,10 @@ const Home = () => {
 							<h5 class="card-title fw-bold">Ep 2: Getting the first 100 customers for your business</h5>
 							<p class="card-text">Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.</p>
 							<a href="#" class="px-0 btn listen-btn fw-bold"><i class="fa-solid fa-circle-play fa-1x"></i><span className="text-center"> Listen Now</span></a>
+						</div>
+						<div className="microphone d-flex justify-content-between">
+							<div></div>
+							<i class="fa-solid fa-microphone"></i>
 						</div>
 					</div>
 					<div class="card border-0">
@@ -89,16 +112,20 @@ const Home = () => {
 							<p class="card-text">Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.</p>
 							<a href="#" class="px-0 btn listen-btn fw-bold"><i class="fa-solid fa-circle-play fa-1x"></i><span className="text-center"> Listen Now</span></a>
 						</div>
+						<div className="microphone d-flex justify-content-between">
+							<div></div>
+							<i class="fa-solid fa-microphone"></i>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div className="article-elements">
 				<div className="article-element">
-				<div class="card border-0">
+					<div class="card border-0">
 						<div class="card-body article-card-body px-0">
 							<div className="article-card-header p-4">
-							<h2 className="text-dark fw-bold">Read our <br/> articles & news</h2>
-							<a href="" className="nav-link link-btn fw-bold">See More</a>
+								<h2 className="text-dark fw-bold">Read our <br/> articles & news</h2>
+								<a href="" className="nav-link link-btn fw-bold">See More</a>
 							</div>
 							<div className="article-card-element">
 								<div className="angle-div angle-div1"></div>
@@ -127,18 +154,14 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-
 			
 		</div>
 	</section>
 	
 </div>
-	
 
-					
 
-		
-	)
+
+)
 }
-
 export default Home

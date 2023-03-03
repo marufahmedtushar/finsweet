@@ -3,3 +3,13 @@
 	color: #ffffff;
 	width: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .section-about .container{
+    padding: 18px!important;
+  }
+  .section-about .container .row{
+    padding: 0!important;
+  }
+}
