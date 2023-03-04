@@ -7,7 +7,7 @@
 @media only screen and (max-width: 600px) {
 
   .section-about .container{
-    padding: 18px!important;
+    padding: 1.125rem!important;
   }
   .section-about .container .row{
     padding: 0!important;

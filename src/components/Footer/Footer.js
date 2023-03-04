@@ -7,7 +7,7 @@ const brand = "{Finsweet";
 
 <div>
 	<section className="sponsor container">
-		<div className="container">
+		<div className="container px-0">
 			<div className="sponsor-header py-5">
 				<h2 className="text-light text-center fw-bold">Our Sponsors</h2>
 			</div>

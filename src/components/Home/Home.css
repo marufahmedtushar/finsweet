@@ -22,17 +22,17 @@ justify-content: center;
 
 .stripe {
   display: inline-block;
-  height: 100px;
+  height: 6.25rem;
 }
 
 .stripe0{
-  width: 50px;
+  width: 2.7rem;
   background-color: #ffffff;
 }
 
 .stripe1 {
-  width: 50px;
-  height: 300px;
+  width: 2.7rem;
+  height: 18.75rem;
   background: linear-gradient(to bottom, 
     #ffffff 30%, 
     #503AE7 30% 70%, 
@@ -41,14 +41,14 @@ justify-content: center;
 
 
 .stripe2 {
-  width: 50px;
-  height: 300px;
+  width: 2.7rem;
+  height: 18.75rem;
   background-color: #1AD993;
 }
 
 .stripe3 {
-  width: 50px;
-  height: 300px;
+  width: 2.7rem;
+  height: 18.75rem;
   background: linear-gradient(to bottom, 
     #ffffff 15%, 
     #503AE7 15% 85%, 
@@ -56,8 +56,8 @@ justify-content: center;
 }
 
 .stripe4 {
-  width: 50px;
-  height: 300px;
+  width: 2.7rem;
+  height: 18.75rem;
   background: linear-gradient(to bottom, 
     #ffffff 30%, 
     #1AD993 30% 70%, 
@@ -65,14 +65,14 @@ justify-content: center;
 }
 
 .stripe5 {
-  width: 50px;
-  height: 300px;
+  width: 2.7rem;
+  height: 18.75rem;
   background-color: #503AE7;
 }
 
 .stripe6 {
-  width: 50px;
-  height: 300px;
+  width: 2.7rem;
+  height: 18.75rem;
   background: linear-gradient(to bottom, 
     #ffffff 15%, 
     #1AD993 15% 85%, 
@@ -82,14 +82,22 @@ justify-content: center;
 .podcasts{
   list-style: none;
 }
+.podcasts .podcasts-list li{
+  padding: 0;
+  margin: 0;
+}
+.podcasts .podcasts-list li a{
+  font-size: 1.5rem;
+
+}
 
 
   #podcast1{
     display: none;
   }
 .podcasts-list li a img {
-  width:25px;
-  height: 25px;
+  width:1.563rem;
+  height: 1.563rem;
 }
 
 
@@ -97,7 +105,7 @@ justify-content: center;
   background-color: #503AE7;
 }
 .episode-btn-element .episode-btn:hover{
-  border: 3px solid #832BC1;
+  border: 0.188rem solid #832BC1;
 }
 .episode-element{
   display: grid;
@@ -106,8 +114,8 @@ justify-content: center;
 
 .episode-elements .microphone{
   position: relative;
-  top: -440px;
-  padding: 13px;
+  top: -27.5rem;
+  padding: 0.813rem;
   color: #ffffff;
 
 }
@@ -115,14 +123,18 @@ justify-content: center;
 .episode-elements .microphone i{
    border-radius: 50%;
    background-color: #503AE7;
-   padding: 12px;
-     height:38px ;
-  width: 38px;
+   padding: 0.75rem;
+     height:2.375rem;
+  width: 2.375rem;
+}
+
+.episode-elements .microphone i:hover{
+  border: 0.125rem solid #832BC1;
 }
 
 .episode-element .card{
-  margin: 5px;
-  padding: 5px;
+  margin: 0.313rem;
+  padding: 0.313rem;
 }
 
 .episode-element .card .listen-btn{
@@ -130,7 +142,11 @@ color: #503AE7;
 }
 
 .episode-element .card .listen-btn i{
-  font-size: 22px;
+  font-size: 1.375rem;
+}
+.episode-element .card .listen-btn i:hover{
+  border: 0.125rem solid #832BC1;
+  border-radius: 50%;
 }
 .episode-element .card .listen-btn:focus{
   border: none;
@@ -142,8 +158,8 @@ color: #503AE7;
 }
 
 .article-element .card{
-  margin: 5px;
-  padding: 5px;
+  margin: 0.313rem;
+  padding: 0.313rem;
 }
 .article-card-body{
   background-color: #F4F2FF;
@@ -156,8 +172,8 @@ color: #503AE7;
 
 .article-card-element {
   display: flex;
-  margin-top: 186px;
-  height: 122px;
+  margin-top: 10.5rem;
+  height: 7.625rem;
   transform: rotate(45deg);
 }
 
@@ -166,50 +182,59 @@ color: #503AE7;
 }
 
 .angle-div0{
-  width: 70px;
-  height: 250px;
+  width: 4.375rem;
+  height: 15.625rem;
   background-color: #F4F2FF;
 }
 
 .angle-div1 {
-  width: 70px;
-  height: 205px;
+  width: 4.375rem;
+  height: 12.813rem;
   background: linear-gradient(to top, 
     #503AE7 30%, 
     #503AE7 30% 70%, 
     #503AE7 70%);
 }
 .angle-div2 {
-  width: 70px;
-  height: 580px;
+  width: 4.375rem;
+  height: 36.25rem;
   background: linear-gradient(to top, 
     #1AD993 30%, 
     #1AD993 30% 70%, 
     #1AD993 70%);
-  margin-top: -258px;
+  margin-top: -16.125rem;
 }
 .angle-div3 {
-  width: 70px;
-  height: 270px;
+  width: 4.375rem;
+  height: 16.875rem;
   background: linear-gradient(to top, 
     #503AE7 30%, 
     #503AE7 30% 70%, 
     #503AE7 70%);
-  margin-top: -158px;
+  margin-top: -9.875rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) { 
+  .section1 .container .row .col-lg-4 .container h1{
+    font-size: 0.625rem!important;
+  }
+  .episode-elements .microphone{
+    top:-0.188rem!important;
+  }
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
   .section1 .container{
-    padding: 18px!important;
+    padding: 1.125rem!important;
   }
   .section1 .container .row{
     padding: 0!important;
   }
 
   .stripe0,.stripe1,.stripe2,.stripe3,.stripe4,.stripe5,.stripe6{
-    width: 30px!important;
+    width: 1.9rem!important;
   }
 
   #podcast0{
@@ -219,9 +244,13 @@ color: #503AE7;
     display: block!important;
   }
 
+  .podcasts .podcasts-list li a{
+    font-size: 1rem!important;
+  }
+
 .episode-elements .microphone{
   position: relative;
-  top: -380px;
+  top: -23.60rem;
 }
 
 .section-episodes .episodes-container .episodes-header{

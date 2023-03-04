@@ -7,7 +7,7 @@ return (
 	<section className="section1">
 		<div className="container p-5">
 			<div className="row px-5">
-				<div className="col-lg-4 col-md-4 col-sm-12">
+				<div className="col-lg-6 col-md-6 col-sm-12">
 					<div className="">
 						<h1 className="fw-bold">Become The Hero <br/>Of Your Own Story</h1>
 						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -18,7 +18,7 @@ return (
 						</div>
 					</div>
 				</div>
-				<div className="col-lg-8 col-md-8 col-sm-12">
+				<div className="col-lg-6 col-md-6 col-sm-12">
 					<div className="container d-flex justify-content-center align-items-center">
 						<div class="stripes-container">
 							<div class="stripe stripe1"></div>
@@ -38,24 +38,24 @@ return (
 			</div>
 			<div className="podcast-container py-5" >
 				<div className="podcasts pt-5" >
-					<div className="podcasts-list d-flex justify-content-between align-items-center mt-4" id="podcast0">
-						<li><a href="" className="nav-link text-dark fw-bold"> Podcast Available On</a></li>
-						<li><a href="" className="nav-link text-dark"><img src="images/ap.png" alt=""/> Apple Podcasts</a></li>
-						<li><a href="" className="nav-link text-dark"><img src="images/gp.png" alt=""/> Google Podcasts</a></li>
-						<li><a href="" className="nav-link text-dark"><img src="images/sc.png" alt=""/> SOUNDCLOUD</a></li>
-						<li><a href="" className="nav-link text-dark"><img src="images/sp.png" alt=""/> Spotify</a></li>
+					<div className=" podcasts-list d-flex justify-content-between align-items-center mt-4" id="podcast0">
+						<li><a href="" className="fw-semibold nav-link text-dark fw-bold"> Podcast Available On</a></li>
+						<li><a href="#" className="fw-semibold nav-link text-dark"><img src="images/ap.png" alt=""/> Apple Podcasts</a></li>
+						<li><a href="#" className="fw-semibold nav-link text-dark"><img src="images/sc.png" alt=""/> SOUNDCLOUD</a></li>
+						<li><a href="#" className="fw-semibold nav-link text-dark"><img src="images/gp.png" alt=""/> Google Podcasts</a></li>	
+						<li><a href="#" className="fw-semibold nav-link text-dark"><img src="images/sp.png" alt=""/> Spotify</a></li>
 					</div>
 					<div className="podcasts-list  mt-4" id="podcast1">
 						<div className="d-flex justify-content-center align-items-center">
-							<li><a href="" className=" nav-link text-dark fw-bold"> Podcast Available On</a></li>
+							<li><a href="#" className=" nav-link text-dark fw-bold"> Podcast Available On</a></li>
 						</div>
 						<div className="podcast-li d-flex justify-content-between align-items-center">
-							<li className="p-1"><a href="" className="nav-link text-dark"><img src="images/ap.png" alt=""/> Apple Podcasts</a></li>
-							<li className="p-1"><a href="" className="nav-link text-dark"><img src="images/gp.png" alt=""/> Google Podcasts</a></li>
+							<li className="p-1"><a href="#" className="nav-link text-dark"><img src="images/ap.png" alt=""/> Apple Podcasts</a></li>
+							<li className="p-1"><a href="#" className="nav-link text-dark"><img src="images/gp.png" alt=""/> Google Podcasts</a></li>
 						</div>
 						<div className="podcast-li d-flex justify-content-between align-items-center">
-							<li className="p-1"><a href="" className="nav-link text-dark"><img src="images/sc.png" alt=""/> SOUNDCLOUD</a></li>
-							<li className="p-1"><a href="" className="nav-link text-dark"><img src="images/sp.png" alt=""/> Spotify</a></li>
+							<li className="p-1"><a href="#" className="nav-link text-dark"><img src="images/sc.png" alt=""/> SOUNDCLOUD</a></li>
+							<li className="p-1"><a href="#" className="nav-link text-dark"><img src="images/sp.png" alt=""/> Spotify</a></li>
 						</div>
 						
 						

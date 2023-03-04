@@ -1,5 +1,6 @@
 .brand-name{
 	position: relative;
+	font-size: 2rem;
 }
 .brand-name:before{
 	content: "{Finsweet";
@@ -14,6 +15,10 @@
 
 .brand-name:hover:before{
 	width: 100%;
-	text-shadow: 1px 1px 1px;
+	text-shadow: 0.063rem 0.063rem 0.063rem;
+}
+
+.navigation-link{
+	font-size: 1.2rem;
 }
 

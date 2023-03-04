@@ -9,7 +9,7 @@ const About = () => {
 		<section className="section-about">
 		<div className="container p-5">
 			<div className="row px-5">
-				<div className="col-md-4">
+				<div className="col-lg-6 col-md-6 col-sm-12">
 					<div className="">
 						<h1 className="fw-bold">About Finsweet <br/> Podcast</h1>
 						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -19,7 +19,7 @@ const About = () => {
 						</div>
 					</div>
 				</div>
-				<div className="col-md-8">
+				<div className="col-lg-6 col-md-6 col-sm-12">
 					
 				</div>
 			</div>
