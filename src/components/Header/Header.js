@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css';
+import { Link} from 'react-router-dom';
 const Header = () => {
 const brand = "{Finsweet";
 return (
@@ -7,9 +8,9 @@ return (
 	<nav className="navbar bg-body-tertiary">
 		<div className="container-fluid">
 			<div className="container d-flex justify-content-between align-items-center">
-				<a class="navbar-brand brand-name fw-bold" href="/">{brand}</a>
+				<Link class="navbar-brand brand-name fw-bold" aria-current="page" to='/'>{brand}</Link>
 			<div className="navigation-link d-flex justify-content-center" role="search">
-				<a className="nav-link fw-bold" href="/about">About</a>
+				<Link className="nav-link fw-bold" aria-current="page" to="/about">About</Link>
 			</div>
 			</div>
 		</div>
